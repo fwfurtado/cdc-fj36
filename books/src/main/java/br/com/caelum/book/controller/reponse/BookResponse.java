@@ -1,4 +1,4 @@
-package br.com.caelum.cdc.controller.reponse;
+package br.com.caelum.book.controller.reponse;
 
 public class BookResponse {
     private Long id;

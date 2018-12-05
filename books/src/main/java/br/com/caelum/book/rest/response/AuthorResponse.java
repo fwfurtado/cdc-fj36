@@ -1,4 +1,4 @@
-package br.com.caelum.cdc.rest.response;
+package br.com.caelum.book.rest.response;
 
 public class AuthorResponse {
     private String name;

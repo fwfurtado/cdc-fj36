@@ -1,6 +1,6 @@
-package br.com.caelum.cdc.rest;
+package br.com.caelum.book.rest;
 
-import br.com.caelum.cdc.rest.response.AuthorResponse;
+import br.com.caelum.book.rest.response.AuthorResponse;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;

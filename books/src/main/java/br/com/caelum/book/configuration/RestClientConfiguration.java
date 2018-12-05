@@ -1,4 +1,4 @@
-package br.com.caelum.cdc.configuration;
+package br.com.caelum.book.configuration;
 
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.annotation.Bean;

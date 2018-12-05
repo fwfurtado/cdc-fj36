@@ -1,4 +1,4 @@
-package br.com.caelum.cdc;
+package br.com.caelum.book;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

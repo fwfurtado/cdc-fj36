@@ -1,6 +1,6 @@
-package br.com.caelum.cdc.repository;
+package br.com.caelum.book.repository;
 
-import br.com.caelum.cdc.model.Book;
+import br.com.caelum.book.model.Book;
 import org.springframework.data.repository.Repository;
 
 import java.util.List;

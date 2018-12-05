@@ -1,6 +1,6 @@
-package br.com.caelum.cdc.controller.request;
+package br.com.caelum.book.controller.request;
 
-import br.com.caelum.cdc.model.Book;
+import br.com.caelum.book.model.Book;
 
 public class BookRequest {
     private String title;

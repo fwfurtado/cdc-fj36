@@ -1,9 +1,8 @@
-package br.com.caelum.cdc.controller;
+package br.com.caelum.book.controller;
 
-import br.com.caelum.cdc.controller.reponse.BookResponse;
-import br.com.caelum.cdc.controller.request.BookRequest;
-import br.com.caelum.cdc.model.Book;
-import br.com.caelum.cdc.service.BookService;
+import br.com.caelum.book.controller.reponse.BookResponse;
+import br.com.caelum.book.controller.request.BookRequest;
+import br.com.caelum.book.service.BookService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

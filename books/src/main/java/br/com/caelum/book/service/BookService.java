@@ -1,11 +1,11 @@
-package br.com.caelum.cdc.service;
+package br.com.caelum.book.service;
 
-import br.com.caelum.cdc.controller.reponse.BookResponse;
-import br.com.caelum.cdc.controller.request.BookRequest;
-import br.com.caelum.cdc.model.Book;
-import br.com.caelum.cdc.repository.BookRepository;
-import br.com.caelum.cdc.rest.AuthorCLI;
-import br.com.caelum.cdc.rest.response.AuthorResponse;
+import br.com.caelum.book.model.Book;
+import br.com.caelum.book.rest.AuthorCLI;
+import br.com.caelum.book.rest.response.AuthorResponse;
+import br.com.caelum.book.controller.reponse.BookResponse;
+import br.com.caelum.book.controller.request.BookRequest;
+import br.com.caelum.book.repository.BookRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
