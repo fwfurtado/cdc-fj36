@@ -11,6 +11,7 @@
 		<module>books</module>
 		<module>buyer</module>
         <module>purchases</module>
+        <module>payments</module>
     </modules>
 	<packaging>pom</packaging>
 
