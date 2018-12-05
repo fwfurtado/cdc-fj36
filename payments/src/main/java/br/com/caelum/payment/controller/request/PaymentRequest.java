@@ -1,6 +1,6 @@
-package br.com.caelum.cdc.controller.request;
+package br.com.caelum.payment.controller.request;
 
-import br.com.caelum.cdc.model.Payment;
+import br.com.caelum.payment.model.Payment;
 
 import java.math.BigDecimal;
 

@@ -1,8 +1,8 @@
-package br.com.caelum.cdc.service;
+package br.com.caelum.payment.service;
 
-import br.com.caelum.cdc.controller.request.PaymentRequest;
-import br.com.caelum.cdc.model.Payment;
-import br.com.caelum.cdc.repository.PaymentRepository;
+import br.com.caelum.payment.controller.request.PaymentRequest;
+import br.com.caelum.payment.model.Payment;
+import br.com.caelum.payment.repository.PaymentRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;

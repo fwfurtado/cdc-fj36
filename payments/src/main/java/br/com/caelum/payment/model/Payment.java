@@ -1,4 +1,4 @@
-package br.com.caelum.cdc.model;
+package br.com.caelum.payment.model;
 
 import javax.persistence.Entity;
 import javax.persistence.EnumType;

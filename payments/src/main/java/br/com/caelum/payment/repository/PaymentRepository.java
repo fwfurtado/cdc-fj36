@@ -1,6 +1,6 @@
-package br.com.caelum.cdc.repository;
+package br.com.caelum.payment.repository;
 
-import br.com.caelum.cdc.model.Payment;
+import br.com.caelum.payment.model.Payment;
 import org.springframework.data.repository.Repository;
 
 import java.util.Optional;

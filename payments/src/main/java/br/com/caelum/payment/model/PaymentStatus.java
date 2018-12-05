@@ -1,4 +1,4 @@
-package br.com.caelum.cdc.model;
+package br.com.caelum.payment.model;
 
 public enum PaymentStatus {
     CREATED,

@@ -1,8 +1,8 @@
-package br.com.caelum.cdc.controller;
+package br.com.caelum.payment.controller;
 
-import br.com.caelum.cdc.controller.request.PaymentRequest;
-import br.com.caelum.cdc.model.Payment;
-import br.com.caelum.cdc.service.PaymentService;
+import br.com.caelum.payment.controller.request.PaymentRequest;
+import br.com.caelum.payment.model.Payment;
+import br.com.caelum.payment.service.PaymentService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
