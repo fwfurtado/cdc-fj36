@@ -1,6 +1,6 @@
-package br.com.caelum.authors.repository;
+package br.com.caelum.author.repository;
 
-import br.com.caelum.authors.model.Author;
+import br.com.caelum.author.model.Author;
 import org.springframework.data.repository.Repository;
 
 import java.util.Optional;

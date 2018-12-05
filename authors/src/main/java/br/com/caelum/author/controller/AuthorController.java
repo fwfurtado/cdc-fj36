@@ -1,8 +1,8 @@
-package br.com.caelum.authors.controller;
+package br.com.caelum.author.controller;
 
-import br.com.caelum.authors.controller.requests.AuthorRequest;
-import br.com.caelum.authors.model.Author;
-import br.com.caelum.authors.repository.AuthorRepository;
+import br.com.caelum.author.controller.requests.AuthorRequest;
+import br.com.caelum.author.model.Author;
+import br.com.caelum.author.repository.AuthorRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

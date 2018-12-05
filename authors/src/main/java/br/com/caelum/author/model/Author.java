@@ -1,4 +1,4 @@
-package br.com.caelum.authors.model;
+package br.com.caelum.author.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

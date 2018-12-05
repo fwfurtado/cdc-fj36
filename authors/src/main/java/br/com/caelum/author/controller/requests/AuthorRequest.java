@@ -1,6 +1,6 @@
-package br.com.caelum.authors.controller.requests;
+package br.com.caelum.author.controller.requests;
 
-import br.com.caelum.authors.model.Author;
+import br.com.caelum.author.model.Author;
 
 public class AuthorRequest {
     private String name;
