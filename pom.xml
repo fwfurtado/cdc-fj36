@@ -12,7 +12,6 @@
 		<module>buyer</module>
         <module>purchases</module>
         <module>payments</module>
-        <module>circuit-breaker-dashboard</module>
     </modules>
 	<packaging>pom</packaging>
 
