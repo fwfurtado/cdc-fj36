@@ -1,8 +1,8 @@
-package br.com.caelum.cdc.buyer.controller;
+package br.com.caelum.buyer.controller;
 
-import br.com.caelum.cdc.buyer.controller.request.BuyerRequest;
-import br.com.caelum.cdc.buyer.model.Buyer;
-import br.com.caelum.cdc.buyer.repository.BuyerRepository;
+import br.com.caelum.buyer.controller.request.BuyerRequest;
+import br.com.caelum.buyer.model.Buyer;
+import br.com.caelum.buyer.repository.BuyerRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -1,6 +1,6 @@
-package br.com.caelum.cdc.buyer.controller.request;
+package br.com.caelum.buyer.controller.request;
 
-import br.com.caelum.cdc.buyer.model.Buyer;
+import br.com.caelum.buyer.model.Buyer;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;

@@ -1,4 +1,4 @@
-package br.com.caelum.cdc.buyer;
+package br.com.caelum.buyer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

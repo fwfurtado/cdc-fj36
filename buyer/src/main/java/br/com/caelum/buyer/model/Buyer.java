@@ -1,4 +1,4 @@
-package br.com.caelum.cdc.buyer.model;
+package br.com.caelum.buyer.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
