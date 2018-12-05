@@ -1,6 +1,7 @@
 package br.com.caelum.purchases.controller;
 
 import br.com.caelum.purchases.controller.request.PurchaseOrder;
+import br.com.caelum.purchases.controller.response.PurchaseResponse;
 import br.com.caelum.purchases.model.Purchase;
 import br.com.caelum.purchases.service.PurchaseService;
 import org.springframework.http.ResponseEntity;

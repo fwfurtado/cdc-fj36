@@ -23,15 +23,19 @@ public class Purchase {
     @NotNull
     private Long buyerId;
 
+    @NotNull
+    private Long paymentId;
+
     /**
      * @deprecated frameworks eyes only
      */
     @Deprecated
     private Purchase() { }
 
-    public Purchase(Long buyerId, List<Product> products) {
+    public Purchase(Long buyerId, List<Product> products, Long paymentId) {
         this.products = products;
         this.buyerId = buyerId;
+        this.paymentId = paymentId;
     }
 
     public Long getId() {
@@ -44,6 +48,10 @@ public class Purchase {
 
     public Long getBuyerId() {
         return buyerId;
+    }
+
+    public Long getPaymentId() {
+        return paymentId;
     }
 
     public BigDecimal getTotal() {
