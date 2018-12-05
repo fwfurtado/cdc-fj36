@@ -5,6 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import java.math.BigDecimal;
 
 @Entity
 public class Book {
@@ -14,6 +15,7 @@ public class Book {
     private Long id;
     private String title;
     private Long authorId;
+    private BigDecimal price;
 
     /**
      * @deprecated frameworks eyes only
@@ -22,9 +24,10 @@ public class Book {
     private Book() {
     }
 
-    public Book(String title, Long authorId) {
+    public Book(String title, Long authorId, BigDecimal price) {
         this.title = title;
         this.authorId = authorId;
+        this.price = price;
     }
 
     public Long getId() {
@@ -37,5 +40,9 @@ public class Book {
 
     public Long getAuthorId() {
         return authorId;
+    }
+
+    public BigDecimal getPrice() {
+        return price;
     }
 }
