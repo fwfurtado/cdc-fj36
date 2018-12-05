@@ -1,7 +1,7 @@
-package br.com.caelum.cdc.purchases.controller.request;
+package br.com.caelum.purchases.controller.request;
 
-import br.com.caelum.cdc.purchases.model.Product;
-import br.com.caelum.cdc.purchases.model.Purchase;
+import br.com.caelum.purchases.model.Product;
+import br.com.caelum.purchases.model.Purchase;
 
 import java.util.List;
 

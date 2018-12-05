@@ -1,4 +1,4 @@
-package br.com.caelum.cdc.purchases.model;
+package br.com.caelum.purchases.model;
 
 import javax.persistence.Embeddable;
 import javax.validation.constraints.NotNull;

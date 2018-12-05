@@ -1,8 +1,8 @@
-package br.com.caelum.cdc.purchases.service;
+package br.com.caelum.purchases.service;
 
-import br.com.caelum.cdc.purchases.controller.request.PurchaseOrder;
-import br.com.caelum.cdc.purchases.model.Purchase;
-import br.com.caelum.cdc.purchases.repository.PurchaseRepository;
+import br.com.caelum.purchases.controller.request.PurchaseOrder;
+import br.com.caelum.purchases.model.Purchase;
+import br.com.caelum.purchases.repository.PurchaseRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;

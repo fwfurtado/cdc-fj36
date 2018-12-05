@@ -1,8 +1,8 @@
-package br.com.caelum.cdc.purchases.controller;
+package br.com.caelum.purchases.controller;
 
-import br.com.caelum.cdc.purchases.controller.request.PurchaseOrder;
-import br.com.caelum.cdc.purchases.model.Purchase;
-import br.com.caelum.cdc.purchases.service.PurchaseService;
+import br.com.caelum.purchases.controller.request.PurchaseOrder;
+import br.com.caelum.purchases.model.Purchase;
+import br.com.caelum.purchases.service.PurchaseService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

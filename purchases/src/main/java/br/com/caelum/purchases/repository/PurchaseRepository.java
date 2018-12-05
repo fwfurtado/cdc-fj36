@@ -1,6 +1,6 @@
-package br.com.caelum.cdc.purchases.repository;
+package br.com.caelum.purchases.repository;
 
-import br.com.caelum.cdc.purchases.model.Purchase;
+import br.com.caelum.purchases.model.Purchase;
 import org.springframework.data.repository.Repository;
 
 import java.util.Optional;
