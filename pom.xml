@@ -10,7 +10,8 @@
 		<module>authors</module>
 		<module>books</module>
 		<module>buyer</module>
-	</modules>
+        <module>purchases</module>
+    </modules>
 	<packaging>pom</packaging>
 
 	<name>cdc</name>
