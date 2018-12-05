@@ -9,6 +9,7 @@
 	<modules>
 		<module>authors</module>
 		<module>books</module>
+		<module>buyer</module>
 	</modules>
 	<packaging>pom</packaging>
 
