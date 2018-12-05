@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/authors?createDatabaseIfNotExist=true&useSSL=false
+    username: root
+#    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8090

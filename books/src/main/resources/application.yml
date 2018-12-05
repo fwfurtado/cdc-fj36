@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/books?createDatabaseIfNotExist=true&useSSL=false
+    username: root
+#    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
