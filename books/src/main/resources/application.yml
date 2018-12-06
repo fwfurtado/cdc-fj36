@@ -1,4 +1,8 @@
+
 spring:
+  application:
+    name: books
+
   datasource:
     url: jdbc:mysql://localhost/books?createDatabaseIfNotExist=true&useSSL=false
     username: root
@@ -14,3 +18,5 @@ management:
           - health
           - info
           - hystrix.stream
+server:
+  port: 0

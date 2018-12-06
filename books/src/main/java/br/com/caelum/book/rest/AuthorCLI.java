@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 @Component
 public class AuthorCLI {
     private final RestTemplate rest;
-    private final String ENDPOINT = "http://localhost:8090/{id}";
+    private final String ENDPOINT = "http://authors/{id}";
 
     public AuthorCLI(RestTemplate rest) {
         this.rest = rest;
