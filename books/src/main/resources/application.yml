@@ -20,3 +20,4 @@ management:
           - hystrix.stream
 server:
   port: 0
+
