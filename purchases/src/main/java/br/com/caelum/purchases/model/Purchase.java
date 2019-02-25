@@ -30,7 +30,8 @@ public class Purchase {
      * @deprecated frameworks eyes only
      */
     @Deprecated
-    private Purchase() { }
+    private Purchase() {
+    }
 
     public Purchase(Long buyerId, List<Product> products, Long paymentId) {
         this.products = products;
@@ -57,6 +58,6 @@ public class Purchase {
     public BigDecimal getTotal() {
         return products.stream()
                 .map(Product::getPrice)
-                    .reduce(BigDecimal.ZERO, BigDecimal::add);
+                .reduce(BigDecimal.ZERO, BigDecimal::add);
     }
 }

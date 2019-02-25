@@ -1,0 +1,10 @@
+/Users/fernandofurtado/Downloads/cdc/books/src/main/java/br/com/caelum/book/model/Book.java
+/Users/fernandofurtado/Downloads/cdc/books/src/main/java/br/com/caelum/book/controller/reponse/BookResponse.java
+/Users/fernandofurtado/Downloads/cdc/books/src/main/java/br/com/caelum/book/service/BookService.java
+/Users/fernandofurtado/Downloads/cdc/books/src/main/java/br/com/caelum/book/repository/BookRepository.java
+/Users/fernandofurtado/Downloads/cdc/books/src/main/java/br/com/caelum/book/controller/request/BookRequest.java
+/Users/fernandofurtado/Downloads/cdc/books/src/main/java/br/com/caelum/book/rest/response/AuthorResponse.java
+/Users/fernandofurtado/Downloads/cdc/books/src/main/java/br/com/caelum/book/configuration/RestClientConfiguration.java
+/Users/fernandofurtado/Downloads/cdc/books/src/main/java/br/com/caelum/book/BookBoot.java
+/Users/fernandofurtado/Downloads/cdc/books/src/main/java/br/com/caelum/book/controller/BookController.java
+/Users/fernandofurtado/Downloads/cdc/books/src/main/java/br/com/caelum/book/rest/AuthorCLI.java

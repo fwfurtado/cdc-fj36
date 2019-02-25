@@ -1,0 +1,7 @@
+br/com/caelum/payment/repository/PaymentRepository.class
+br/com/caelum/payment/PaymentBoot.class
+br/com/caelum/payment/controller/PaymentController.class
+br/com/caelum/payment/service/PaymentService.class
+br/com/caelum/payment/model/Payment.class
+br/com/caelum/payment/model/PaymentStatus.class
+br/com/caelum/payment/controller/request/PaymentRequest.class

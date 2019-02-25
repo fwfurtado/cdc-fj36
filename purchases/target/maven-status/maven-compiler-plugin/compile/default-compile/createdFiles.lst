@@ -1,0 +1,12 @@
+br/com/caelum/purchases/service/PurchaseService.class
+br/com/caelum/purchases/configuration/RestClientConfiguration.class
+br/com/caelum/purchases/repository/PurchaseRepository.class
+br/com/caelum/purchases/controller/request/PurchaseOrder.class
+br/com/caelum/purchases/model/Purchase.class
+br/com/caelum/purchases/controller/response/PurchaseResponse.class
+br/com/caelum/purchases/rest/response/PaymentResponse.class
+br/com/caelum/purchases/model/Product.class
+br/com/caelum/purchases/rest/PaymentCLI.class
+br/com/caelum/purchases/controller/PurchaseController.class
+br/com/caelum/purchases/PurchaseBoot.class
+br/com/caelum/purchases/rest/request/PaymentRequest.class

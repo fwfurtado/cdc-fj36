@@ -1,0 +1,5 @@
+br/com/caelum/author/model/Author.class
+br/com/caelum/author/repository/AuthorRepository.class
+br/com/caelum/author/controller/AuthorController.class
+br/com/caelum/author/controller/requests/AuthorRequest.class
+br/com/caelum/author/AuthorBoot.class

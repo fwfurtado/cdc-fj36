@@ -17,6 +17,6 @@ public class PaymentCLI {
     }
 
     public PaymentResponse createPaymentFor(PurchaseOrder order) {
-        return rest.postForObject(ENDPOINT, new PaymentRequest(order.getTotal()), PaymentResponse.class );
+        return rest.postForObject(ENDPOINT, new PaymentRequest(order.getTotal()), PaymentResponse.class);
     }
 }

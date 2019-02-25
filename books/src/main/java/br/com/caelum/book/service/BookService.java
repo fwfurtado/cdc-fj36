@@ -34,8 +34,8 @@ public class BookService {
 
     public List<BookResponse> all() {
         return repository.findAll().stream()
-                            .map(this::mapToBookResponse)
-                                    .collect(toList());
+                .map(this::mapToBookResponse)
+                .collect(toList());
     }
 
     public BookResponse save(BookRequest bookRequest) {

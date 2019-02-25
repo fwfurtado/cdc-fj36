@@ -28,7 +28,7 @@ public class PurchaseOrder {
     }
 
     public Purchase toDomain(PaymentResponse payment) {
-       return new Purchase(buyerId, products, payment.getId());
+        return new Purchase(buyerId, products, payment.getId());
     }
 
     public BigDecimal getTotal() {

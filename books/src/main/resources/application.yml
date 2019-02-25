@@ -1,4 +1,3 @@
-
 spring:
   application:
     name: books
@@ -6,7 +5,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost/books?createDatabaseIfNotExist=true&useSSL=false
     username: root
-#    password:
+  #    password:
   jpa:
     hibernate:
       ddl-auto: update

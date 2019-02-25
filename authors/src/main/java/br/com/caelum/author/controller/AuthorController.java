@@ -30,8 +30,8 @@ public class AuthorController {
     public ResponseEntity<Author> getBy(@PathVariable Long id) {
         return repository.
                 findById(id)
-                    .map(ok()::body)
-                        .orElseGet(notFound()::build);
+                .map(ok()::body)
+                .orElseGet(notFound()::build);
     }
 
     @PostMapping

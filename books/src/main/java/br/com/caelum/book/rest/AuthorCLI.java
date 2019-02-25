@@ -23,7 +23,7 @@ public class AuthorCLI {
 
         try {
             return rest.getForObject(ENDPOINT, AuthorResponse.class, id);
-        }catch (Exception e) {
+        } catch (Exception e) {
             AuthorResponse authorResponse = new AuthorResponse();
             authorResponse.setName("Unknown");
 

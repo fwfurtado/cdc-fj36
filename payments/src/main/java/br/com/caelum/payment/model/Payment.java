@@ -26,7 +26,8 @@ public class Payment {
      * @deprecated framework eyes only
      */
     @Deprecated
-    private Payment() { }
+    private Payment() {
+    }
 
     public Payment(@NotNull BigDecimal value) {
         this.value = value;

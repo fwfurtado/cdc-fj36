@@ -16,7 +16,8 @@ public class Product {
      * @deprecated frameworks eyes only
      */
     @Deprecated
-    private Product() { }
+    private Product() {
+    }
 
     public Product(Long id, BigDecimal price) {
         this.id = id;

@@ -19,7 +19,8 @@ public class Buyer {
      * @deprecated frameworks eyes only
      */
     @Deprecated
-    private Buyer() { }
+    private Buyer() {
+    }
 
     public Buyer(@NotNull String email) {
         this.email = email;

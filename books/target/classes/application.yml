@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: books
+
+  datasource:
+    url: jdbc:mysql://localhost/books?createDatabaseIfNotExist=true&useSSL=false
+    username: root
+  #    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - health
+          - info
+          - hystrix.stream
+server:
+  port: 0
+
+authors:
+  ribbon:
+    ServerListRefreshInterval: 1000

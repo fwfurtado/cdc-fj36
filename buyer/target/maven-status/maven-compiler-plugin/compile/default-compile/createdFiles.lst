@@ -1,0 +1,5 @@
+br/com/caelum/buyer/controller/BuyerController.class
+br/com/caelum/buyer/model/Buyer.class
+br/com/caelum/buyer/BuyerBoot.class
+br/com/caelum/buyer/repository/BuyerRepository.class
+br/com/caelum/buyer/controller/request/BuyerRequest.class

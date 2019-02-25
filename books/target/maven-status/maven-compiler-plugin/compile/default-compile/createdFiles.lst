@@ -1,0 +1,10 @@
+br/com/caelum/book/repository/BookRepository.class
+br/com/caelum/book/BookBoot.class
+br/com/caelum/book/service/BookService.class
+br/com/caelum/book/rest/response/AuthorResponse.class
+br/com/caelum/book/configuration/RestClientConfiguration.class
+br/com/caelum/book/controller/BookController.class
+br/com/caelum/book/rest/AuthorCLI.class
+br/com/caelum/book/model/Book.class
+br/com/caelum/book/controller/reponse/BookResponse.class
+br/com/caelum/book/controller/request/BookRequest.class
